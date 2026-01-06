@@ -8,7 +8,7 @@ credentialsId: 'github-credentials'])
 pipeline {   
   agent any
   tools {
-    maven 'Maven'
+    maven 'Maven-3.9'
   }
   environment {
     IMAGE_NAME = 'hetallearn/demo-app:java-maven-2.0'
